@@ -1,0 +1,43 @@
+Loading R/4.5.0
+  Loading requirement: java/21.0.7 texlive/20220403 pandoc/2.17.1.1
+    workspace/scratch
+Job started at: Sat May 16 00:18:19 PDT 2026
+Node: r34
+Working directory: /rhome/jzou043/GM_run/optimizer_comparison_current_1000rep
+Output directory: optimizer_comparison_current_1000rep_results 
+Replicates: 1000 
+Parents: 100 female + 100 male
+SNP: 1000 | Effective SNP: 200 
+Select: 12 female + 6 male
+Starts per algorithm: 2 
+Workers: 10 
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[[8]]
+[1] TRUE
+
+[[9]]
+[1] TRUE
+
+[[10]]
+[1] TRUE
+

@@ -1,0 +1,38 @@
+Loading R/4.5.0
+  Loading requirement: java/21.0.7 texlive/20220403 pandoc/2.17.1.1
+    workspace/scratch
+Job started at: Sat May 16 01:32:13 PDT 2026
+Node: r37
+Working directory: /rhome/jzou043/GM_run/multigen_expected_mean_large_clean
+R script: simulate_100rep_four_strategies_expected_mean_large.R
+N_REP=100, N_GENERATIONS=10, N_WORKERS=8, SCENARIO=S3_strong, N_RESTART=2
+OUT_DIR=multigen_expected_mean_large_results
+null device 
+          1 
+
+=== Multi-generation expected-progeny-mean final summary ===
+   Strategy FinalGeneration MeanFinalTrueGV SDFinalTrueGV MeanFinalMaxTrueGV
+1        GM              10        279.7228      2.291659           294.8498
+2     GS+GM              10        277.1684      2.263980           293.1493
+3 GS mating              10        256.7492      3.781472           279.0505
+4 PS mating              10        247.9478      3.693498           272.1634
+  MeanFinalPhenotype MeanFinalSelectedPairProgenyMean
+1           329.6331                         279.6953
+2           327.0912                         277.1101
+3           306.7515                         256.7259
+4           297.9156                         247.9371
+  MeanFinalTotalProgenyMeanObjective MeanGeneticGain SDGeneticGain
+1                           3356.343       40.971426      1.861171
+2                           3325.322       38.417081      1.702292
+3                           3080.711       17.997847      3.224268
+4                           2975.245        9.196443      3.477453
+
+Files written to:
+multigen_expected_mean_large_results/multigen_expected_mean_large_history.csv 
+multigen_expected_mean_large_results/multigen_expected_mean_large_pair_history.csv 
+multigen_expected_mean_large_results/multigen_expected_mean_large_truth_summary.csv 
+multigen_expected_mean_large_results/multigen_expected_mean_large_generation_summary.csv 
+multigen_expected_mean_large_results/multigen_expected_mean_large_final_summary.csv 
+multigen_expected_mean_large_results/multigen_expected_mean_large_gain_plot.png 
+multigen_expected_mean_large_results.tar.gz 
+Job finished at: Sat May 16 02:42:11 PDT 2026
