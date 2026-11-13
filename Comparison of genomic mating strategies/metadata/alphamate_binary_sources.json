@@ -1,0 +1,16 @@
+[
+  {
+    "File": "AlphaMate_Unix",
+    "Bytes": 33816880,
+    "MD5": "215c0e80b42856239ca197285526f45f",
+    "SHA256": "6731c91950254d734796edbed65c9f3b91bef9938b1f43aa941d9c410c343fd9",
+    "URL": "https://raw.githubusercontent.com/AlphaGenes/AlphaMate/787a1ae95cda1e94483b9e70f9fe8979b6fac0b8/binaries/AlphaMate_Unix"
+  },
+  {
+    "File": "AlphaMate.exe",
+    "Bytes": 29753344,
+    "MD5": "37f240fc3684d94d1ccb494471d23e37",
+    "SHA256": "3cb124ff07d54d4d4f92136d45de6f84bf471938fa67ba811bb7033f4c705d0a",
+    "URL": "https://raw.githubusercontent.com/AlphaGenes/AlphaMate/787a1ae95cda1e94483b9e70f9fe8979b6fac0b8/binaries/AlphaMate.exe"
+  }
+]

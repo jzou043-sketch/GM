@@ -1,0 +1,7 @@
+Algorithm,RImplementation,Settings,Provenance
+OSNB,Original Rcpp,pool_female=200;pool_male=200;n_restart=2;search_mode=best;search_tolerance=1e-12,"Unchanged source; 100 candidates/sex, no exclusion; exact Hungarian conditional assignment"
+PSO,pso::psoptim,pop=40;w=0.721347520444482;type=SPSO2007;hybrid=FALSE,Population and w from server screenshot; implementation controls from original source
+Tabu,tabuSearch::tabuSearch,listSize=20;size=200;neigh=200;nRestarts=0;repeatAll=1,listSize from server screenshot; other controls from original source
+SA,stats::optim(method=SANN),temp=0.1;tmax=10;feasible single-parent-swap proposal,temp/tmax from server screenshot; native logarithmic cooling
+GA,GA::ga,pop=40;mutation=0.2;pcrossover=0.8;type=real-valued;optim=FALSE,Population/mutation from server screenshot; other controls from original source
+DE,DEoptim::DEoptim,pop=40;F=0.8;CR=0.9;strategy=2;parallelType=none,Population/F/CR from server screenshot; other controls from original source

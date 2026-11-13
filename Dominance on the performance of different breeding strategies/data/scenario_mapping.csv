@@ -1,0 +1,5 @@
+"Scenario","DominanceMultiplier","ScenarioLabel"
+"D00",0,"No dominance"
+"D02",2,"Weak dominance"
+"D04",4,"Moderate dominance"
+"D08",8,"Strong dominance"

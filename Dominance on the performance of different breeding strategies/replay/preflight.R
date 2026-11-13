@@ -1,0 +1,15 @@
+if(getRversion()<"4.1.0") stop("R >= 4.1 is required for the embedded C++ string.")
+cat("R:",as.character(getRversion()),"\n")
+if(!requireNamespace("Rcpp",quietly=TRUE)) {
+  if(Sys.getenv("INSTALL_MISSING","1")!="1") stop("Install Rcpp first or use INSTALL_MISSING=1.")
+  lib <- Sys.getenv("R_LIBS_USER")
+  if(!nzchar(lib)) stop("Set R_LIBS_USER to a writable user library.")
+  dir.create(lib,recursive=TRUE,showWarnings=FALSE)
+  .libPaths(c(lib,.libPaths()))
+  install.packages("Rcpp",repos="https://cloud.r-project.org",lib=lib)
+}
+if(!requireNamespace("Rcpp",quietly=TRUE)) stop("Rcpp installation failed.")
+cat("Rcpp:",as.character(packageVersion("Rcpp")),"\n")
+Rcpp::cppFunction("int gm_replay_compiler_check() { return 17; }")
+stopifnot(gm_replay_compiler_check()==17)
+cat("PASS: Rcpp and C++ compilation available. AlphaSimR is not needed to replay frozen inputs.\n")

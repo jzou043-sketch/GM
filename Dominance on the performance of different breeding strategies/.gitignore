@@ -1,0 +1,10 @@
+recomputed_results/
+replay/server_results/
+replay/results_0248_*/
+replay/logs/
+.Rhistory
+.RData
+*.o
+*.so
+*.dll
+.run.lock
