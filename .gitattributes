@@ -10,3 +10,4 @@
 *.rds filter=lfs diff=lfs merge=lfs -text
 *.tar.gz filter=lfs diff=lfs merge=lfs -text
 *.zip filter=lfs diff=lfs merge=lfs -text
+/GM_pipeline_user_guide.pdf -filter -diff -merge -text
